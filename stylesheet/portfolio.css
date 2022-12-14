@@ -7,7 +7,7 @@ body {
 /* Heading 1 elements */
 h1 {
     text-transform: uppercase; /* Capitalizing all h1 headings */
-    font-family: "Trebuchet MS", Optima; /* Sets the font family of all h1 headings */
+    font-family: "Arial"; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
     color: #1a1a1a; 
@@ -27,7 +27,7 @@ h1:hover {
 
 /* Paragraph elements */
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: justify; /* Justify text within paragraph elements */
     letter-spacing: 1px; /* This expands the text slightly */
     font-size: 20px;
@@ -121,7 +121,7 @@ footer {
     color: white; /* This is the font color for text on our navbar */
     padding: 14px 16px; /* This adds padding around our text */
     text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
-    font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
+    font-family: Arial, Helvetica, sans-serif;/* This specifies the font family for text on our navbar */
     font-size: 20px; /* This specifies the font size for text on our navbar */
     text-align: center; /* This centers the text within its container */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
@@ -246,7 +246,7 @@ input[type=text] {
     margin-top: 6px; /* Adds a margin to the top of the text box */
     margin-bottom: 16px; /* Adds a margin to the bottom of the text box */
     resize: vertical; /* This allows the user to resize the text boxes vertically */
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Hover effects for input boxes */
@@ -266,7 +266,7 @@ input[type=submit] {
     display: block; /* Allows the submit button to be centered */
     margin-left: auto; /* In combination with "margin-right: auto" this will center the submit button */
     margin-right: auto;
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Hover effect for submit button */
@@ -282,6 +282,6 @@ form {
     border-radius: 5px; /* Rounds the corners of the contact form */
     background-color: #f2f2f2; 
     padding: 10px; /* Adds padding to the contact form */
-    font-family: "Trebuchet MS", Optima;
+    font-family: "Arial", Helvetica, sans-serif;
 }
 /***** END OF CONTACT FORM STYLING *****/
